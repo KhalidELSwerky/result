@@ -31,17 +31,18 @@ function result(){
        let network=89;
        let marketing=89;
        let information=89;
-       let acountin=89;
+       let acounting=89;
         id.innerHTML +=input.value;
        let mat1 = material1.innerHTML += datasince;
        let mat2 = material2.innerHTML += operatingsystem;
        let mat3 = material3.innerHTML +=network;
        let mat4 = material4.innerHTML +=marketing;
        let mat5 = material5.innerHTML +=information;
-       let mat6 = material6.innerHTML +=acountin; 
+       let mat6 = material6.innerHTML +=acounting; 
        gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
        input.value=''
        con.style.display='block';
+       
        butt.style.display='block'
        but.style.display='none';
        
@@ -88,6 +89,8 @@ function result(){
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value=''
         con.style.display='block';
+        butt.style.display='block'
+       but.style.display='none';
     }
 
     
@@ -110,6 +113,8 @@ function result(){
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value=''
         con.style.display='block';
+        butt.style.display='block'
+       but.style.display='none';
     }
 
     
@@ -132,6 +137,8 @@ function result(){
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value=''
         con.style.display='block';
+        butt.style.display='block'
+       but.style.display='none';
     }
 
     
@@ -154,6 +161,8 @@ function result(){
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value=''
         con.style.display='block';
+        butt.style.display='block'
+       but.style.display='none';
     }
 
     
@@ -176,6 +185,8 @@ function result(){
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value='';
         con.style.display='block';
+        butt.style.display='block'
+       but.style.display='none';
     }
 
     
@@ -198,6 +209,8 @@ function result(){
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value='';
         con.style.display='block';
+        butt.style.display='block'
+       but.style.display='none';
     }
 
     
@@ -220,7 +233,10 @@ function result(){
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value=''
         con.style.display='block';
+        butt.style.display='block'
+       but.style.display='none';
     }
+
 
     
     else if(input.value==11058){
@@ -242,6 +258,8 @@ function result(){
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value=''
         con.style.display='block';
+        butt.style.display='block'
+       but.style.display='none';
     }
 
     
