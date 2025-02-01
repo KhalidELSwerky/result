@@ -11,7 +11,7 @@ let material7 = document.getElementById('material7');
 let input = document.getElementById('input');
 let but = document.getElementById('but');
 let butt = document.getElementById('butt');
-let con = document.getElementById('con') ;
+let con = document.getElementById('contianer') ;
 
 con.style.display='none'
 butt.style.display='none'
@@ -31,6 +31,29 @@ function result(){
        let network=89;
        let marketing=89;
        let information=89;
+       let acountin=89;
+        id.innerHTML +=input.value;
+       let mat1 = material1.innerHTML += datasince;
+       let mat2 = material2.innerHTML += operatingsystem;
+       let mat3 = material3.innerHTML +=network;
+       let mat4 = material4.innerHTML +=marketing;
+       let mat5 = material5.innerHTML +=information;
+       let mat6 = material6.innerHTML +=acountin; 
+       gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
+       input.value=''
+       con.style.display='block';
+       butt.style.display='block'
+       but.style.display='none';
+       
+    }
+    else if(input.value==15000){
+        
+        name.innerHTML +='mohammed naser anter mahmoud';
+       let datasince=50;
+       let operatingsystem=75;
+       let network=89;
+       let marketing=89;
+       let information=89;
        let acounting=89;
         id.innerHTML +=input.value;
        let mat1 = material1.innerHTML += datasince;
@@ -44,10 +67,7 @@ function result(){
        con.style.display='block';
        butt.style.display='block'
        but.style.display='none';
-       
-
-       
-       
+      
     }
     else if(input.value==11050){
         name.innerHTML +='elmotasem hassan ';
