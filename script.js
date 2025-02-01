@@ -10,9 +10,11 @@ let material6 = document.getElementById('material6');
 let material7 = document.getElementById('material7');
 let input = document.getElementById('input');
 let but = document.getElementById('but');
+let butt = document.getElementById('butt');
 let con = document.getElementById('con') ;
 
 con.style.display='none'
+butt.style.display='none'
 function result(){
    
     if(input.value =='' || isNaN(input.value)||input.value.length !=5)
@@ -40,6 +42,9 @@ function result(){
        gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
        input.value=''
        con.style.display='block';
+       butt.style.display='block'
+       but.style.display='none';
+       
 
        
        
@@ -231,6 +236,7 @@ function result(){
 
 
     }
+    function reload(){
+        setTimeout(function(){location.reload()},500)
+    }
     
-    
-
