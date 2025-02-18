@@ -13,6 +13,15 @@ let but = document.getElementById('but');
 let butt = document.getElementById('butt');
 let con = document.getElementById('contianer') ;
 
+let material = document.querySelector(".material");
+
+window.onload=function(){
+    
+    let img = document.getElementById('img') ;
+    img.style.display='block'
+setTimeout(function(){
+    img.style.display='none'},3000)
+}
 con.style.display='none'
 butt.style.display='none'
 function result(){
@@ -26,7 +35,7 @@ function result(){
     else if(input.value==11057){
         
         name.innerHTML +='khalid gamal ahmed';
-       let datasince=40;
+       let datasince=60;
        let operatingsystem=45;
        let network=89;
        let marketing=89;
@@ -41,8 +50,27 @@ function result(){
        let mat6 = material6.innerHTML +=acounting; 
        gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
        input.value=''
-       con.style.display='block';
+       if(datasince< 50 ){
+        material1.style.background="rgb(104, 14, 14)";
+       }
        
+       if(operatingsystem< 50 ){
+        material2.style.background="rgb(104, 14, 14)";
+       }
+       if(network< 50 ){
+        material3.style.background="rgb(104, 14, 14)";
+       }
+       if(marketing< 50 ){
+        material4.style.background="rgb(104, 14, 14)";
+       }
+       if(information< 50 ){
+        material5.style.background="rgb(104, 14, 14)";
+       }
+       if(acounting< 50 ){
+        material6.style.background="rgb(104, 14, 14)";
+       }
+
+       con.style.display='block';
        butt.style.display='block'
        but.style.display='none';
        
@@ -65,6 +93,25 @@ function result(){
        let mat6 = material6.innerHTML +=acounting; 
        gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
        input.value=''
+       if(datasince< 50 ){
+        material1.style.background="rgb(104, 14, 14)";
+       }
+       
+       if(operatingsystem< 50 ){
+        material2.style.background="rgb(104, 14, 14)";
+       }
+       if(network< 50 ){
+        material3.style.background="rgb(104, 14, 14)";
+       }
+       if(marketing< 50 ){
+        material4.style.background="rgb(104, 14, 14)";
+       }
+       if(information< 50 ){
+        material5.style.background="rgb(104, 14, 14)";
+       }
+       if(acounting< 50 ){
+        material6.style.background="rgb(104, 14, 14)";
+       }
        con.style.display='block';
        butt.style.display='block'
        but.style.display='none';
@@ -88,6 +135,25 @@ function result(){
         let mat6 = material6.innerHTML +=acounting;
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value=''
+        if(datasince< 50 ){
+            material1.style.background="rgb(104, 14, 14)";
+           }
+           
+           if(operatingsystem< 50 ){
+            material2.style.background="rgb(104, 14, 14)";
+           }
+           if(network< 50 ){
+            material3.style.background="rgb(104, 14, 14)";
+           }
+           if(marketing< 50 ){
+            material4.style.background="rgb(104, 14, 14)";
+           }
+           if(information< 50 ){
+            material5.style.background="rgb(104, 14, 14)";
+           }
+           if(acounting< 50 ){
+            material6.style.background="rgb(104, 14, 14)";
+           }
         con.style.display='block';
         butt.style.display='block'
        but.style.display='none';
@@ -112,6 +178,25 @@ function result(){
         let mat6 = material6.innerHTML +=acounting;
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value=''
+        if(datasince< 50 ){
+            material1.style.background="rgb(104, 14, 14)";
+           }
+           
+           if(operatingsystem< 50 ){
+            material2.style.background="rgb(104, 14, 14)";
+           }
+           if(network< 50 ){
+            material3.style.background="rgb(104, 14, 14)";
+           }
+           if(marketing< 50 ){
+            material4.style.background="rgb(104, 14, 14)";
+           }
+           if(information< 50 ){
+            material5.style.background="rgb(104, 14, 14)";
+           }
+           if(acounting< 50 ){
+            material6.style.background="rgb(104, 14, 14)";
+           }
         con.style.display='block';
         butt.style.display='block'
        but.style.display='none';
@@ -136,6 +221,25 @@ function result(){
         let mat6 = material6.innerHTML +=acounting;
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value=''
+        if(datasince< 50 ){
+            material1.style.background="rgb(104, 14, 14)";
+           }
+           
+           if(operatingsystem< 50 ){
+            material2.style.background="rgb(104, 14, 14)";
+           }
+           if(network< 50 ){
+            material3.style.background="rgb(104, 14, 14)";
+           }
+           if(marketing< 50 ){
+            material4.style.background="rgb(104, 14, 14)";
+           }
+           if(information< 50 ){
+            material5.style.background="rgb(104, 14, 14)";
+           }
+           if(acounting< 50 ){
+            material6.style.background="rgb(104, 14, 14)";
+           }
         con.style.display='block';
         butt.style.display='block'
        but.style.display='none';
@@ -160,6 +264,25 @@ function result(){
         let mat6 = material6.innerHTML +=acounting;
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value=''
+        if(datasince< 50 ){
+            material1.style.background="rgb(104, 14, 14)";
+           }
+           
+           if(operatingsystem< 50 ){
+            material2.style.background="rgb(104, 14, 14)";
+           }
+           if(network< 50 ){
+            material3.style.background="rgb(104, 14, 14)";
+           }
+           if(marketing< 50 ){
+            material4.style.background="rgb(104, 14, 14)";
+           }
+           if(information< 50 ){
+            material5.style.background="rgb(104, 14, 14)";
+           }
+           if(acounting< 50 ){
+            material6.style.background="rgb(104, 14, 14)";
+           }
         con.style.display='block';
         butt.style.display='block'
        but.style.display='none';
@@ -184,6 +307,25 @@ function result(){
         let mat6 = material6.innerHTML +=acounting;
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value='';
+        if(datasince< 50 ){
+            material1.style.background="rgb(104, 14, 14)";
+           }
+           
+           if(operatingsystem< 50 ){
+            material2.style.background="rgb(104, 14, 14)";
+           }
+           if(network< 50 ){
+            material3.style.background="rgb(104, 14, 14)";
+           }
+           if(marketing< 50 ){
+            material4.style.background="rgb(104, 14, 14)";
+           }
+           if(information< 50 ){
+            material5.style.background="rgb(104, 14, 14)";
+           }
+           if(acounting< 50 ){
+            material6.style.background="rgb(104, 14, 14)";
+           }
         con.style.display='block';
         butt.style.display='block'
        but.style.display='none';
@@ -208,6 +350,25 @@ function result(){
         let mat6 = material6.innerHTML +=acounting;
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value='';
+        if(datasince< 50 ){
+            material1.style.background="rgb(104, 14, 14)";
+           }
+           
+           if(operatingsystem< 50 ){
+            material2.style.background="rgb(104, 14, 14)";
+           }
+           if(network< 50 ){
+            material3.style.background="rgb(104, 14, 14)";
+           }
+           if(marketing< 50 ){
+            material4.style.background="rgb(104, 14, 14)";
+           }
+           if(information< 50 ){
+            material5.style.background="rgb(104, 14, 14)";
+           }
+           if(acounting< 50 ){
+            material6.style.background="rgb(104, 14, 14)";
+           }
         con.style.display='block';
         butt.style.display='block'
        but.style.display='none';
@@ -232,6 +393,25 @@ function result(){
         let mat6 = material6.innerHTML +=acounting;
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value=''
+        if(datasince< 50 ){
+            material1.style.background="rgb(104, 14, 14)";
+           }
+           
+           if(operatingsystem< 50 ){
+            material2.style.background="rgb(104, 14, 14)";
+           }
+           if(network< 50 ){
+            material3.style.background="rgb(104, 14, 14)";
+           }
+           if(marketing< 50 ){
+            material4.style.background="rgb(104, 14, 14)";
+           }
+           if(information< 50 ){
+            material5.style.background="rgb(104, 14, 14)";
+           }
+           if(acounting< 50 ){
+            material6.style.background="rgb(104, 14, 14)";
+           }
         con.style.display='block';
         butt.style.display='block'
        but.style.display='none';
@@ -245,7 +425,7 @@ function result(){
         let datasince=75;
         let operatingsystem=89;
         let network=70;
-        let marketing=69;
+        let marketing=49;
         let information=80;
         let acounting=84;
          id.innerHTML +=input.value;
@@ -257,6 +437,25 @@ function result(){
         let mat6 = material6.innerHTML +=acounting;
         gpa.innerHTML +=((datasince+ operatingsystem+ network+ marketing+ information+ acounting)/600)*4;
         input.value=''
+        if(datasince< 50 ){
+            material1.style.background="rgb(104, 14, 14)";
+           }
+           
+           if(operatingsystem< 50 ){
+            material2.style.background="rgb(104, 14, 14)";
+           }
+           if(network< 50 ){
+            material3.style.background="rgb(104, 14, 14)";
+           }
+           if(marketing< 50 ){
+            material4.style.background="rgb(104, 14, 14)";
+           }
+           if(information< 50 ){
+            material5.style.background="rgb(104, 14, 14)";
+           }
+           if(acounting< 50 ){
+            material6.style.background="rgb(104, 14, 14)";
+           }
         con.style.display='block';
         butt.style.display='block'
        but.style.display='none';
